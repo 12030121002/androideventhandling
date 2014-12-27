@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/grey">
+  
+     <TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wednesday" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:text="@string/deg"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    </TableRow>
+  <TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+    </TableRow>
+ <TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+       <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+     />
+
+       </TableRow>
+   <TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+   
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t1"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t2"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+       />
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t3"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+       />
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t4"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+       />
+</TableRow>
+    
+ <TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+   
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tuesday"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/monday" 
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/thursday" 
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wednesday"
+        android:layout_gravity="center" />
+ 
+   </TableRow>
+    
+<TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+   <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/one"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+         />
+
+     
+    <TextView
+  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/two"
+        android:textColor="@color/white"
+         android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/three"
+        android:textColor="@color/white"
+         android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/four"
+        android:textColor="@color/white"
+         android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+         />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+   <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/five"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+         />
+
+     
+    <TextView
+  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/six"
+        android:textColor="@color/white"
+         android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/seven"
+        android:textColor="@color/white"
+         android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/eight"
+        android:textColor="@color/white"
+         android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+         />
+    </TableRow>
+   
+
+</TableLayout>

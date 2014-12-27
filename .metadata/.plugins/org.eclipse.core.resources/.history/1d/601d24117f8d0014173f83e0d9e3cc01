@@ -1,0 +1,34 @@
+package com.example.eventhandling;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+
+public class CheckedChangeListnerActivity extends Activity {
+	private RadioGroup rgCase;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_checked_change_listner);
+	
+
+	rgCase = (RadioGroup) findViewById(R.id.rgCase);
+	
+	OnCheckedChangeListener listner = new OnCheckedChangeListener() {
+		
+		@Override
+		public void onCheckedChanged(RadioGroup group, int id) {
+			switch(id){
+			case R.id.lcase:
+				break;
+			case R.id.ucase:
+				break;
+			}
+			
+			
+		}
+	};
+	
+	}
+}
